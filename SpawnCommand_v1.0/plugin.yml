@@ -1,0 +1,17 @@
+name: SpawnCommand
+version: 1.0
+api: [1.12.0]
+author: chell_uoxou
+main: SpawnCommand\Main
+
+commands:
+  spawn:
+    description: "Teleport to spawn"
+    usage: "/spawn"
+    permission: "spawncommand.command.spawn"
+
+permissions:
+  spawn:
+    default: true
+    description: "Allows player to go to spawn point"
+
